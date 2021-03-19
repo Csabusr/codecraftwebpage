@@ -1,0 +1,107 @@
+
+body {
+    background-color: transparent !important;
+}
+
+.footer {
+    color: white;
+}
+
+.header {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.ppadding {
+    padding: 0px;
+}
+
+.menuitem {
+    color: white;
+    align: 15px;
+}
+
+.profile_picture {
+    object-fit: fill;
+    object-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about_me_column {
+    vertical-align: center;
+    horizontal-align: center;
+    color: white;
+}
+
+.h2welcome {
+    vertical-align: bottom;
+}
+
+.navbarreflex {
+    height: 5%
+}
+
+.hredit {
+    border-top: 1px solid #0D0D0D;
+}
+
+.picture {
+    width: 300px;
+    background-color: white;
+    margin: auto;
+    border: 10px solid black;
+    display: block;
+}
+
+.card {
+    width: 10%;
+    background-color: white;
+    border: 1px solid;
+}
+
+.picture-txt {
+    padding-top: 10px;
+    margin: auto !important;
+    width: 80%;
+    color: #911B00;
+    text-align: center;
+}
+
+.tdedit {
+    text-align: center;
+    font-size: 24px;
+}
+
+.picture_caption {
+    font-size: 12px; height: auto; text-align: center;
+}
+
+.h1edit {
+    color: white;
+    text-align: center;
+}
+
+.picture_hr {
+    border-top: 1px solid #ffffff;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.edittable {
+    width: 100%;
+    background-color: transparent !important;
+}
+
+html {
+    height: 100vh;
+    background-image: linear-gradient(to right, #000000, #0b2b20);
+}
+.link {
+  color: #DE4723 !important; text-align: center;
+}
+

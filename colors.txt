@@ -1,0 +1,3 @@
+piros: 238,59,45
+vilagos_sz: 45,55,73
+sotet_sz: 26,32,44

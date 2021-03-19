@@ -1,0 +1,78 @@
+
+body {
+    background-image: url("../images/Background_pic.6cdb62617c08.png");
+    background-size: cover;
+    font-family: Roboto;
+}
+
+.footer {
+    color: white;
+}
+
+.header {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 3rem;
+}
+
+.menuitem {
+    color: white;
+    align: 15px;
+}
+
+.profile_picture {
+    object-fit: fill;
+    object-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about_me_column {
+    vertical-align: middle;
+    horizontal-align: center;
+    color: white;
+}
+
+.hredit {
+    border-top: 1px solid #989898;
+}
+
+.picture {
+    width: 320px;
+    background-color: white;
+    margin: auto;
+    border: 10px solid black;
+    display: block;
+}
+
+.card {
+    width: 10%;
+    background-color: white;
+    border: 1px solid;
+}
+
+.picture-txt {
+    margin: auto;
+    width: 320px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+}
+.tdedit{
+    text-align: center;
+    font-size: 24px;
+}
+.picture_caption{
+    font-size: 14px;
+}
+.h1edit {
+    color: white;
+    text-align: center;
+}
+.picture_hr{
+    width: 50%;
+}

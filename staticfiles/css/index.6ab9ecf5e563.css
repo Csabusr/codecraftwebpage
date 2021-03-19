@@ -1,0 +1,15 @@
+.kurvanagyot{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20%;
+    color:white;
+}
+body{
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    font-color:white;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F06%2F1920x1080-Wallpaper-Image.jpg&f=1&nofb=1");
+    max-width: 1920px;
+}
+#footerdiv{
+    color:white;
+}

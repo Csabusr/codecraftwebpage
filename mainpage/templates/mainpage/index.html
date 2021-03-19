@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Craft</title>
+    <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}"/>
+    {% include 'mainpage/styles.html' %}
+</head>
+<body>
+<main>
+    {% block content %}
+
+    {% endblock %}
+<footer>
+    {% include 'mainpage/footer.html' %}
+</footer>
+</main>
+
+<!--login animation-->
+<div class="intro">
+    <div class="intro-text">
+        <h1 class="hide">
+            <span class="text">Code Craft Minecraft Szerver</span>
+            <span class="text"><img  width="120px" src="{% static 'images/ONLY_ROUND.png' %}"></span>
+        </h1>
+        <h1 class="hide">
+            <span class="text">code-craft.ddns.net</span>
+        </h1>
+        <h1 class="hide">
+            <span class="text">Több mint egy átlagos Minecraft szerver</span>
+        </h1>
+    </div>
+</div>
+<div class="slider"></div>
+<script type="text/javascript" src="{% static "js/welcomeanimation.js" %}"></script>
+
+</body>
+</html>
