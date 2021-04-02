@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Discord</title>
+    {% include 'mainpage/styles.html' %}
+</head>
+<body>
+{% include 'mainpage/navbar.html' %}
+<main>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="https://discord.gg/GVcJ9UDT6m">
+                    <img class="discord_img" src="{% static 'images/discord.png' %}">
+                </a>
+            </div>
+            <div class="col">
+                <h1>Csatlakozz a Discord szererünkhöz!</h1>
+            </div>
+    </div>
+    </div>
+
+
+
+<footer>
+    {% include 'mainpage/footer.html' %}
+</footer>
+</main>
+</body>
+</html>

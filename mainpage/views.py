@@ -9,10 +9,10 @@ def home(request):
 def szerverrol(request):
 	return render(request, 'mainpage/szerverrol.html')
 
-def cv(request):
-	return render(request, 'mainpage/cv.html')
+def csapat(request):
+	return render(request, 'mainpage/codecraft_csapat.html')
 
-def viewer(request):
-	return render(request, 'mainpage/viewer.html')
+def discord(request):
+	return render(request, 'mainpage/discord.html')
 
 
