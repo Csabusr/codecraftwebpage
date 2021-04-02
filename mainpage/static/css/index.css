@@ -9,13 +9,10 @@ body{
 #navbar_icontext{
     max-width: 200px;
 }
-.page {
-	width: 1000px;
-	margin: 20px auto 20px auto;
+#page {
 	background-color: #a8a8a8;
-	background-position: center;
-	font-family: Verdana;
-	font-color: #ffffff
+	color: #000000;
+    text-align: center;
 }
 #navbar_fooldal{
     color: #000000;
@@ -25,13 +22,16 @@ body{
     color: #006837;
 }
 #footerdiv{
-    background-color: #4f4f4e;
+    background-color: #3d3d3d;
     padding: 20px 20px 20px 20px;
     text-align: center;
-    font-color: #858585;
+    color: #ffffff;
 }
-#discord_update{
+#discord_widget{
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto;
+    text-align: center;
+    background-color: #a8a8a8;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }

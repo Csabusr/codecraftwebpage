@@ -6,8 +6,9 @@ from django.http import HttpResponse
 def home(request):
 	return render(request, 'mainpage/main.html')
 
-def about_me(request):
-	return render(request, 'mainpage/aboutme.html')
+def szerverrol(request):
+	return render(request, 'mainpage/szerverrol.html')
+
 def cv(request):
 	return render(request, 'mainpage/cv.html')
 
