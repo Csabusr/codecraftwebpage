@@ -30,8 +30,16 @@ body{
 	font-family: Verdana;
 	font-color: #ffffff
 }
+#navbar_fooldal{
+    color: #000000;
+    font-weight: bold;
+}
+#navbar_fooldal:hover{
+    color: #006837;
+}
 #footerdiv{
     background-color: #4f4f4e;
     padding: 20px 20px 20px 20px;
     text-align: center;
+    font-color: #858585;
 }
