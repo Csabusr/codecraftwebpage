@@ -1,21 +1,8 @@
-
-.kurvanagyot{
-    font-size: 3rem;
-    font-family: Verdana;
-    text-align: center;
-    padding-top: 20%;
-    color:white;
-}
 body{
-    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
-    font-color: white;
-    background-color: #5a5a5a;
-    background-position: center top;
-    max-width: 1920px;
-    color: #000000;
-	background-color: #f9f8f6;
-	background-position: center top;
+    background-image: url("../images/CODE_BG.png");
+    width: 100vw;
 }
+
 .navbar_icon{
     max-width: 18%;
 }
