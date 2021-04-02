@@ -8,9 +8,27 @@
 }
 body{
     font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
-    font-color:white;
+    font-color: white;
     background-color: #5a5a5a;
+    background-position: center top;
     max-width: 1920px;
+    color: #000000;
+	background-color: #f9f8f6;
+	background-position: center top;
+}
+.navbar_icon{
+    max-width: 18%;
+}
+#navbar_icontext{
+    max-width: 200px;
+}
+.page {
+	width: 1000px;
+	margin: 20px auto 20px auto;
+	background-color: #a8a8a8;
+	background-position: center;
+	font-family: Verdana;
+	font-color: #ffffff
 }
 #footerdiv{
     background-color: #4f4f4e;
