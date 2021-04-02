@@ -12,5 +12,7 @@ body{
     max-width: 1920px;
 }
 #footerdiv{
-    bakground-color: #019000;
+    background-color: #4f4f4e;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
 }
