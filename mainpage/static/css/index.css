@@ -43,3 +43,8 @@ body{
     text-align: center;
     font-color: #858585;
 }
+#discord_update{
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
