@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>A szerverről</title>
+    {% include 'mainpage/styles.html' %}
+</head>
+<body>
+{% include 'mainpage/navbar.html' %}
+<main>
+
+<div id="bookmark_munkak">Munkak Könyvjelző</div>
+<div id="bookmark_rangok">Rangok Könyvjelző</div>
+<div id="bookmark_parancsok">Parancsok Könyvjelző</div>
+<div id="bookmark_helyek">Helyek Könyvjelző</div>
+
+<footer>
+    {% include 'mainpage/footer.html' %}
+</footer>
+</main>
+</body>
+</html>

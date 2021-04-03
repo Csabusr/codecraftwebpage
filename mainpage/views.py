@@ -15,4 +15,16 @@ def csapat(request):
 def discord(request):
 	return render(request, 'mainpage/discord.html')
 
+def munkak(request):
+	return render(request, 'mainpage/info.html')
+
+def rangok(request):
+	return render(request, 'mainpage/info.html')
+
+def parancsok(request):
+	return render(request, 'mainpage/info.html')
+
+def helyek(request):
+	return render(request, 'mainpage/info.html')
+
 
