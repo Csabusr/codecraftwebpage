@@ -8,15 +8,64 @@
 <body>
 {% include 'mainpage/navbar.html' %}
 <main>
+    <div class="page">
 
-<div id="bookmark_munkak">Munkak Könyvjelző</div>
-<div id="bookmark_rangok">Rangok Könyvjelző</div>
-<div id="bookmark_parancsok">Parancsok Könyvjelző</div>
-<div id="bookmark_helyek">Helyek Könyvjelző</div>
+        <div class="container-sm">
+        <div id="menu">
+                <div class="row justify-content-end">
+                    <div class="col-2">
+                        <h2>Információk</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-2">
+                        <a href="#munkak">Munkák</a>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-2">
+                        <a href="#rangok">Rangok</a>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-2">
+                        <a href="#parancsok">Parancsok</a>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-2">
+                        <a href="#helyek">Helyek</a>
+                    </div>
+                </div>
+        </div>
+        </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="munkak"><h2>Munkák</h2></div>
+                        <p>A szerveren különböző munkákat vállalhatsz el, melyek végzéséért fizetést kapsz.</p>
+                        <p><img src="../static/images/munkak/epitesz.png" width="70%" height="60%"></p>
+                        <p><img src="../static/images/munkak/banyasz.png" width="70%" height="60%"></p>
+                        <p><img src="../static/images/munkak/favago.png" width="70%" height="60%"></p>
+                        <p><img src="../static/images/munkak/crafter.png" width="70%" height="60%"></p>
+                        <p><img src="../static/images/munkak/fegyverkovacs.png" width="70%" height="60%"></p>
+                        <p><img src="../static/images/munkak/farmer.png" width="70%" height="60%"></p>
+                        <p><img src="../static/images/munkak/lottymester.png" width="70%" height="60%"></p>
+                        <p><img src="../static/images/munkak/foldmunkas.png" width="70%" height="60%"></p>
+                        <p><img src="../static/images/munkak/vadasz.png" width="70%" height="60%"></p>
+                        <p><img src="../static/images/munkak/halasz.png" width="70%" height="60%"></p>
+                    <p><div id="rangok"><h2>Rangok</h2></div>
+                    <p><div id="parancsok"><h2>Parancsok</h2></div>
+                    <div id="helyek"><h2>Helyek</h2></div>
+                </div>
+            </div>
+        </div>
+    </div>
 <footer>
     {% include 'mainpage/footer.html' %}
 </footer>
+    </div>
 </main>
 </body>
 </html>

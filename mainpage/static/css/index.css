@@ -11,9 +11,9 @@ body{
     max-width: 200px;
 }
 #page {
-	background-color: #b2b2b2;
+	background-color: #b4b4b4;
 	color: #000000;
-    text-align: center;
+    text-align: left;
 }
 #navbar_fooldal{
     color: #000000;
@@ -40,7 +40,18 @@ body{
     max-width: 100px;
 }
 
-
+#munkak{
+margin-top: -140px;
+}
+#menu{
+  color: #676767
+}
+#menu:hover{
+  color: #006837
+}
+#menu h2{
+  color: #000000
+}
 .image-wrapper {
   width: 60px;
   height: 40px;
