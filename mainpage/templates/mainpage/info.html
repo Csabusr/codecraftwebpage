@@ -8,9 +8,8 @@
 <body>
 {% include 'mainpage/navbar.html' %}
 <main>
-    <div class="page">
-
-        <div class="container-sm">
+    <div>
+        <!--
         <div id="menu">
                 <div class="row justify-content-end">
                     <div class="col-2">
@@ -38,23 +37,57 @@
                     </div>
                 </div>
         </div>
-        </div>
-
+-->
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col">
                     <div id="munkak"><h2>Munkák</h2></div>
                         <p>A szerveren különböző munkákat vállalhatsz el, melyek végzéséért fizetést kapsz.</p>
-                        <p><img src="../static/images/munkak/epitesz.png" width="70%" height="60%"></p>
-                        <p><img src="../static/images/munkak/banyasz.png" width="70%" height="60%"></p>
-                        <p><img src="../static/images/munkak/favago.png" width="70%" height="60%"></p>
-                        <p><img src="../static/images/munkak/crafter.png" width="70%" height="60%"></p>
-                        <p><img src="../static/images/munkak/fegyverkovacs.png" width="70%" height="60%"></p>
-                        <p><img src="../static/images/munkak/farmer.png" width="70%" height="60%"></p>
-                        <p><img src="../static/images/munkak/lottymester.png" width="70%" height="60%"></p>
-                        <p><img src="../static/images/munkak/foldmunkas.png" width="70%" height="60%"></p>
-                        <p><img src="../static/images/munkak/vadasz.png" width="70%" height="60%"></p>
-                        <p><img src="../static/images/munkak/halasz.png" width="70%" height="60%"></p>
+                    <div class="row">
+                        <div class="col" id="munkakartya">
+                            <p><img class="munka_img" src="../static/images/munkak/epitesz.png"></p>
+                            <p>asadsadasdasdasdasdasdasdasd</p>
+                        </div>
+
+                        <div class="col" id="munkakartya">
+                            <p><img class="munka_img" src="../static/images/munkak/banyasz.png"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                         <div class="col">
+                            <p><img class="munka_img" src="../static/images/munkak/favago.png"></p>
+                         </div>
+
+                         <div class="col">
+                            <p><img class="munka_img" src="../static/images/munkak/crafter.png"></p>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col">
+                            <p><img class="munka_img" src="../static/images/munkak/fegyverkovacs.png"></p>
+                         </div>
+
+                         <div class="col">
+                            <p><img class="munka_img" src="../static/images/munkak/farmer.png"></p>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col">
+                            <p><img class="munka_img" src="../static/images/munkak/lottymester.png"></p>
+                         </div>
+
+                        <div class="col">
+                            <p><img class="munka_img" src="../static/images/munkak/foldmunkas.png"></p>
+                        </div>
+                    </div>
+                     <div class="row">
+                         <div class="col">
+                            <p><img class="munka_img" src="../static/images/munkak/vadasz.png"></p>
+                         </div>
+                         <div class="col">
+                            <p><img class="munka_img" src="../static/images/munkak/halasz.png"></p>
+                         </div>
+                     </div>
                     <p><div id="rangok"><h2>Rangok</h2></div>
                     <p><div id="parancsok"><h2>Parancsok</h2></div>
                     <div id="helyek"><h2>Helyek</h2></div>
