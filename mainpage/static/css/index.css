@@ -11,7 +11,7 @@ body{
     max-width: 200px;
 }
 #page {
-	background-color: #b4b4b4;
+    background-color: rgba(255,255,255,0.4);
 	color: #000000;
     text-align: left;
 }
@@ -32,7 +32,7 @@ body{
     align-items: center;
     margin: auto;
     text-align: center;
-    background-color: #b2b2b2;
+    background-color: rgba(255,255,255,0.4);
     padding-bottom: 15px;
     padding-top: 15px;
 }
@@ -45,7 +45,21 @@ body{
 }
 
 #munkakartya{
-    background-color: #b2b2b2;
+    background-color: rgba(255,255,255,0.4);
+}
+#munkakartya1{
+    padding-top: 15px;
+    background-color: rgba(255,255,255,0.4);
+}
+.munkaleiras-jobb{
+    padding-right: 15px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+.munkaleiras-bal{
+    padding-left: 15px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
 }
 
 #menu:hover{

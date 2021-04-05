@@ -9,87 +9,133 @@
 {% include 'mainpage/navbar.html' %}
 <main>
     <div>
-        <!--
-        <div id="menu">
-                <div class="row justify-content-end">
-                    <div class="col-2">
-                        <h2>Információk</h2>
-                    </div>
-                </div>
-                <div class="row justify-content-end">
-                    <div class="col-2">
-                        <a href="#munkak">Munkák</a>
-                    </div>
-                </div>
-                <div class="row justify-content-end">
-                    <div class="col-2">
-                        <a href="#rangok">Rangok</a>
-                    </div>
-                </div>
-                <div class="row justify-content-end">
-                    <div class="col-2">
-                        <a href="#parancsok">Parancsok</a>
-                    </div>
-                </div>
-                <div class="row justify-content-end">
-                    <div class="col-2">
-                        <a href="#helyek">Helyek</a>
-                    </div>
-                </div>
-        </div>
--->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col">
-                    <div id="munkak"><h2>Munkák</h2></div>
+                    <div id="munkak">
+                        <h2>Munkák</h2>
+                    </div>
                         <p>A szerveren különböző munkákat vállalhatsz el, melyek végzéséért fizetést kapsz.</p>
                     <div class="row">
-                        <div class="col" id="munkakartya">
+                        <div class="col" id="munkakartya1">
                             <p><img class="munka_img" src="../static/images/munkak/epitesz.png"></p>
-                            <p>asadsadasdasdasdasdasdasdasd</p>
+                            <p class="munkaleiras-bal">
+                                 Ha ehhez a munkához csatlakozol, akkor építéssel és<br>
+                                 más playerek megölésével kereshetsz pénzt!<br>
+                                 maximális szint : 150<br>
+                                 Napi küldetések száma : 1db
+                            </p>
                         </div>
+
+                        <div class="col" id="munkakartya1">
+                            <p><img class="munka_img" src="../static/images/munkak/banyasz.png"></p>
+                            <p class="munkaleiras-jobb">
+                                 Ha ehhez a munkához csatlakozol, akkor az egyszerű bányászással és <br>
+                                 más playerek megölésével kereshetsz pénzt!<br>
+                                 maximális szint : 150<br>
+                                 Napi küldetések száma : 1db
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                         <div class="col" id="munkakartya">
+                            <p><img class="munka_img" src="../static/images/munkak/favago.png"></p>
+                             <p class="munkaleiras-bal">
+                                 Ha ehhez a munkához csatlakozol, akkor favágással, ültetéssel és <br>
+                                 más playerek megölésével kereshetsz pénzt!<br>
+                                 maximális szint : 150<br>
+                                 Napi küldetések száma : 4db
+                            </p>
+                         </div>
+                         <div class="col" id="munkakartya">
+                            <p><img class="munka_img" src="../static/images/munkak/crafter.png"></p>
+                             <p class="munkaleiras-jobb">
+                                 Ha ehhez a munkához csatlakozol, akkor kraftolásokkal és<br>
+                                 más playerek megölésével kereshetsz pénzt!<br>
+                                 maximális szint : 150<br>
+                                 Napi küldetések száma : 1db
+                             </p>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col" id="munkakartya">
+                            <p><img class="munka_img" src="../static/images/munkak/fegyverkovacs.png"></p>
+                             <p class="munkaleiras-bal">
+                                 Ha ehhez a munkához csatlakozol, akkor fegyverek elkészítésével és<br>
+                                 használatával kereshetsz pénzt!<br>
+                                 maximális szint : 150<br>
+                                 Napi küldetések száma : 1db
+                             </p>
+                         </div>
+
+                         <div class="col" id="munkakartya">
+                            <p><img class="munka_img" src="../static/images/munkak/farmer.png"></p>
+                             <p class="munkaleiras-jobb">
+                                 Ha ehhez a munkához csatlakozol, akkor gazdálkodással és<br>
+                                 más playerek megölésével kereshetsz pénzt!<br>
+                                 maximális szint : 150<br>
+                                 Napi küldetések száma : 1db
+                             </p>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col" id="munkakartya">
+                            <p><img class="munka_img" src="../static/images/munkak/lottymester.png"></p>
+                             <p class="munkaleiras-bal">
+                                 Ha ehhez a munkához csatlakozol, akkor bájitalok elkészítésével és<br>
+                                 használatával kereshetsz pénzt!<br>
+                                 maximális szint : 150<br>
+                                 Napi küldetések száma : 1db
+                             </p>
+                         </div>
 
                         <div class="col" id="munkakartya">
-                            <p><img class="munka_img" src="../static/images/munkak/banyasz.png"></p>
-                        </div>
-                    </div>
-                    <div class="row">
-                         <div class="col">
-                            <p><img class="munka_img" src="../static/images/munkak/favago.png"></p>
-                         </div>
-
-                         <div class="col">
-                            <p><img class="munka_img" src="../static/images/munkak/crafter.png"></p>
-                         </div>
-                    </div>
-                    <div class="row">
-                         <div class="col">
-                            <p><img class="munka_img" src="../static/images/munkak/fegyverkovacs.png"></p>
-                         </div>
-
-                         <div class="col">
-                            <p><img class="munka_img" src="../static/images/munkak/farmer.png"></p>
-                         </div>
-                    </div>
-                    <div class="row">
-                         <div class="col">
-                            <p><img class="munka_img" src="../static/images/munkak/lottymester.png"></p>
-                         </div>
-
-                        <div class="col">
                             <p><img class="munka_img" src="../static/images/munkak/foldmunkas.png"></p>
+                            <p class="munkaleiras-jobb">
+                                Ha ehhez a munkához csatlakozol, akkor ásóval történő munkálatokkal és<br>
+                                 más playerek megölésével kereshetsz pénzt!<br>
+                                 maximális szint : 150<br>
+                                 Napi küldetések száma : 1db
+                            </p>
                         </div>
                     </div>
                      <div class="row">
-                         <div class="col">
+                         <div class="col" id="munkakartya">
                             <p><img class="munka_img" src="../static/images/munkak/vadasz.png"></p>
+                             <p class="munkaleiras-bal">
+                                 Ha ehhez a munkához csatlakozol, akkor vadászattal és<br>
+                                 más playerek megölésével kereshetsz pénzt!<br>
+                                 maximális szint : 150<br>
+                                 Napi küldetések száma : 1db
+                             </p>
                          </div>
-                         <div class="col">
+                         <div class="col" id="munkakartya">
                             <p><img class="munka_img" src="../static/images/munkak/halasz.png"></p>
+                             <p class="munkaleiras-jobb">
+                                 Ha ehhez a munkához csatlakozol, akkor horgászattal és<br>
+                                 más playerek megölésével kereshetsz pénzt!<br>
+                                 maximális szint : 150<br>
+                                 Napi küldetések száma : 1db
+                             </p>
                          </div>
                      </div>
-                    <p><div id="rangok"><h2>Rangok</h2></div>
-                    <p><div id="parancsok"><h2>Parancsok</h2></div>
+                    <br>
+                    <div id="rangok"><h2>Rangok</h2></div>
+                    <div class="row">
+                         <div class="col" id="munkakartya">asd
+                         </div>
+                         <div class="col" id="munkakartya">asd
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col" id="munkakartya">asd
+                         </div>
+                         <div class="col" id="munkakartya">asd
+                         </div>
+                    </div>
+
+                    <div id="parancsok"><h2>Parancsok</h2></div>
                     <div id="helyek"><h2>Helyek</h2></div>
                 </div>
             </div>
